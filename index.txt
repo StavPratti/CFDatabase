@@ -1,0 +1,2 @@
+select x -> include
+where y -> the column that will be included in index

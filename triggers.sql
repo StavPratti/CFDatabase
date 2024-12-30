@@ -32,7 +32,7 @@ CREATE TABLE audit_account
 	DECLARE @bcode INT
 
 	SET @balance_old = (SELECT balance FROM deleted)
-	SET @balance_old = (SELECT balance FROM inserted)
+	SET @balance_new = (SELECT balance FROM inserted)
 	SET @accno = (SELECT accno FROM deleted)
 	SET @bcode = (SELECT balance FROM deleted)
 
